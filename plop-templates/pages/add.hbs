@@ -1,0 +1,9 @@
+$1
+  /**
+   * 创建时间: {{ createTime }}
+   */
+  {
+    path: '/{{kebabCase fileName}}',
+    component: lazy(() => import(`../pages/{{kebabCase fileName}}/index.jsx`)),
+    exact: true
+  },

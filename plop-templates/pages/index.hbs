@@ -1,0 +1,19 @@
+import React, { useEffect } from 'react'
+
+{{#if style}}
+import './index.scss'
+
+{{/if}}
+const {{ pascalCase fileName }} = () => {
+  useEffect(() => {
+
+  }, [])
+
+  return (
+    <div className="{{ kebabCase fileName }}">
+      我是 {{kebabCase fileName}} 页面
+    </div>
+  )
+}
+
+export default {{ pascalCase fileName }}
